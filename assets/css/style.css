@@ -1518,7 +1518,22 @@ a.bg-danger:hover {
 	outline: none
 }
 
-.btn.btn-dark {
+.btn-dark {
+	border: 1px solid #323f46;
+	background: #323f46;
+	color: #fff;
+	font-size: 20px;
+    border-radius: 2px;
+    padding: 14px 45px;
+    letter-spacing: .5px;
+    text-shadow: none;
+    /* margin-top: 20px; */
+    box-shadow: 0 2px 8px rgb(102 103 107 / 15%);
+}
+
+
+
+.footer-button {
 	border: 1px solid #323f46;
 	background: #323f46;
 	color: #fff
@@ -2137,12 +2152,24 @@ span.new-offer {
 	padding: 80px 0
 }
 
+.cwhite {
+	color: white;
+	font-size: 19px;
+	line-height: 27px;
+}
+
+@media (max-width:786px) {
+	.cwhite {
+		display: none;
+	}
+}
+
 .banner.trans {
 	min-height: 680px
 }
 
 .simple-banner {
-	min-height: 650px;
+	min-height: 500px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -2151,7 +2178,7 @@ span.new-offer {
 }
 
 .simple-banner.top {
-	background-position: center top
+	/* background-position: center top */
 }
 
 .hero-banner {
@@ -3293,7 +3320,8 @@ a.video-btn:hover i {
 }
 
 section.call-to-act {
-	padding: 0
+	padding: 0;
+	background: #de185a;
 }
 
 .gr-dark {
@@ -3596,13 +3624,17 @@ a.btn.bat-call-to-act:focus {
 	list-style: none;
 	text-align: center;
 	flex: 0 0 25%;
-	font-weight: 500
+	margin: 0 10px;
+	padding: 10px;
+	font-weight: 500;
+	box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
 }
 
 .job.stock-facts li span {
 	color: #3a3a3a;
-	font-size: 22px;
-	font-weight: 600
+	font-size: 28px;
+	font-weight: 600;
+	border-bottom: 2px solid #666666;
 }
 
 
@@ -3624,7 +3656,7 @@ a.btn.bat-call-to-act:focus {
 }
 
 .before-footer {
-	padding: 2.5rem 0
+	padding: 3.5rem 0
 }
 
 footer {
@@ -7250,7 +7282,18 @@ button.btn.btn-login {
 }
 
 .category-box .category-desc .category-detail p {
-	margin-bottom: 5px
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+.shadow{
+	box-shadow: 0px 70px 0px #252d40;
+}
+
+@media (max-width: 1900px) {
+	.shadow{
+		box-shadow: none;
+	}
 }
 
 .category-box .category-desc .category-detail span {
@@ -11176,11 +11219,30 @@ button.btn.submit-btn.ft-search {
 	.banner.home-5,
 	.home-three-banner,
 	.slide-banner {
-		margin-top: 55px
+		/* margin-top: 55px */
 	}
 
 	.simple-banner {
-		min-height: 350px
+		min-height: 190px
+	}
+
+	.simple-banner h1 {
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 26px
+	}
+
+	.btn {
+		font-size: 12px;
+		border-radius: 2px;
+		padding: 10px 27px;
+		letter-spacing: .5px;
+		text-shadow: none;
+		border-radius: 17px;
+		margin-top: 15px;
+		box-shadow: 0 2px 8px rgba(102, 103, 107, .15);
 	}
 
 	.banner .small {

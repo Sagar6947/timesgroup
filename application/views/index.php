@@ -20,19 +20,56 @@
 	<div class="Loader"></div>
 
 	<?php include 'includes/header.php' ?>
+	<div class="clearfix"></div>
 
-	<!-- Carousel wrapper -->
-	
-	<!-- Carousel wrapper -->
+	<section>
+		<div class="">
+			<div class="row">
+				<div class="main-slide">
+
+					<!-- Single Freelancer -->
+
+					<div class="grid-slide-box">
+						<div class="simple-banner top" style="background-image:url(assets/images/new-banner.jpg);">
+							<!-- Wrapper for carousel items -->
+							<div class="container">
+								<div class="simple-banner-caption">
+									<div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 banner-text">
+										<h1 class="small">LOOKING FOR A <span class="theme-cl">JOB?</span></h1>
+										<h5><span class="cwhite">There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised words<br> which don't look even slightly believable</h5>
+										<div class="height-80"><a href="<?= base_url() ?>" class="btn btn-danger">Find your Job</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-slide-box">
+						<div class="simple-banner top" style="background-image:url(assets/images/banner-2.png);">
+							<!-- Wrapper for carousel items -->
+							<div class="container">
+								<div class="simple-banner-caption">
+									<div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 banner-text">
+										<h1 class="small">LOOKING FOR A <span class="theme-cl">JOB?</span></h1>
+										<h5><span class="cwhite">There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised words<br> which don't look even slightly believable</h5>
+										<div class="height-80"><a href="<?= base_url() ?>" class="btn btn-danger">Find your Job</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
 
 	<div class="clearfix"></div>
-	<!-- Main Banner Section End -->
-
-	<!-- bottom form section start -->
-
-	<!-- Bottom Search Form Section End -->
-
-	<section class="how-it-works">
+	<section class="how-it-works" style="padding-top: 0px">
 		<div class="container">
 			<div class="row" data-aos="fade-up">
 				<div class="col-md-12">
@@ -71,7 +108,7 @@
 		<div class="container-fluid">
 
 			<div class="col-md-6 col-sm-6 no-padd bl-dark">
-				<div class="call-to-act-caption">
+				<div class="call-to-act-caption shadow">
 
 
 					<h2 class="underline">WELCOME TO TIMES GROUP</h2>
@@ -89,22 +126,80 @@
 	</section>
 
 
-	<div class="before-footer">
+	<section>
 		<div class="container">
 			<div class="row">
 
-				<div class="col-md-12 col-sm-12 hill">
-					<ul class="job stock-facts">
-						<li><span>1250</span></br>Jobs Posted</li>
-						<li><span>500</span></br>Members</li>
-						<li><span>700</span></br>Resume</li>
-						<li><span>1250</span></br>Company</li>
-					</ul>
+				<div class="col-md-3 col-sm-6">
+					<div class="category-box" data-aos="fade-up">
+						<div class="category-desc">
+							<div class="category-icon">
+								<img src="assets/img/cat-1.png" class="img-responsive" alt="" />
+								<i class="icon-bargraph abs-icon" aria-hidden="true"></i>
+							</div>
+
+							<div class="category-detail category-desc-text">
+								<h4> <a href="">Jobs Posted</a></h4>
+								<p>1250</p>
+							</div>
+						</div>
+					</div>
 				</div>
 
+				<div class="col-md-3 col-sm-6">
+					<div class="category-box" data-aos="fade-up">
+						<div class="category-desc">
+							<div class="category-icon">
+								<img src="assets/img/cat-2.png" class="img-responsive" alt="" />
+								<i class="icon-tools-2 abs-icon" aria-hidden="true"></i>
+							</div>
+
+							<div class="category-detail category-desc-text">
+								<h4> <a href="">Members</a></h4>
+								<p>500</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="category-box" data-aos="fade-up">
+						<div class="category-desc">
+							<div class="category-icon">
+								<img src="assets/img/resume.png" class="img-responsive" alt="" />
+								<i class="icon-briefcase abs-icon" aria-hidden="true"></i>
+							</div>
+
+							<div class="category-detail category-desc-text">
+								<h4> <a href="">Resume</a></h4>
+								<p>700</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="category-box" data-aos="fade-up">
+						<div class="category-desc">
+							<div class="category-icon">
+								<img src="assets/img/cat-4.png" class="img-responsive" alt="" />
+								<i class="icon-edit abs-icon" aria-hidden="true"></i>
+							</div>
+
+							<div class="category-detail category-desc-text">
+								<h4> <a href="">Company</a></h4>
+								<p>1250</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
 			</div>
+
 		</div>
-	</div>
+	</section>
 
 
 	<section class="testimonial" id="testimonial">
@@ -194,7 +289,7 @@
 						<div class="input-group">
 							<input type="email" class="form-control" placeholder="Enter your email address">
 							<span class="input-group-btn">
-								<button class="btn theme-bg" type="submit"><span class="fa fa-paper-plane-o"> Subscribe</span></button>
+								<button class="btn-dark" type="submit"><span class="fa fa-paper-plane-o"> Subscribe</span></button>
 							</span>
 						</div>
 					</div>
@@ -330,7 +425,7 @@
 
 					</div>
 
-					
+
 </body>
 
 </html>
